@@ -1,7 +1,8 @@
-import State from './UseState/State1.js'
+//import State from './UseState/State1.js'
+import Effect from "./UseEffect/Effect";
 function App() {
   return (
-    <State/>
+    <Effect/>
   );
 }
 
