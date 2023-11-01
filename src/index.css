@@ -52,3 +52,23 @@ body {
     gap: 4rem;
   }
 }
+.cocktail-data{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+.cocktail-data li img{
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+}
+.cocktail-data li{
+  list-style-type: none;
+}
+@media screen and (min-width : 768px) {
+  .cocktail-data{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+  }
+}
