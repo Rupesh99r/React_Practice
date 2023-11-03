@@ -1,5 +1,5 @@
 //import State from './UseState/State1.js'
-import Effect from "./UseEffect/Effect2.js";
+import Effect from "./UseContext/ParentComponent.js";
 function App() {
   return (
     <Effect/>
